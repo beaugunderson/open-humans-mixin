@@ -5,3 +5,11 @@ unreleased) Open Humans API via OAuth2.
 
 This repository will eventually be ready for inclusion via
 pip/requirements.txt.
+
+### Setup
+
+```sh
+$ cp example.env .env
+$ $EDITOR .env
+$ foreman start
+```
